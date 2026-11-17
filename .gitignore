@@ -1,5 +1,4 @@
-# Photos d'origine (plusieurs Go) — jamais dans Git
-mariage_*/
+# Photos d'origine : les dossiers mariage_* SONT versionnés (poussés par lots < 2 Go)
 originals/*
 !originals/.gitkeep
 
