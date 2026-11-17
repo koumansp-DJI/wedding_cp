@@ -1,0 +1,19 @@
+# Photos d'origine (plusieurs Go) — jamais dans Git
+mariage_*/
+originals/*
+!originals/.gitkeep
+
+# Versions web générées pour Cloudflare R2
+web/
+
+# Copies de sécurité locales
+*.backup.html
+*.backup.py
+
+# Divers
+__pycache__/
+*.env
+.claude/
+desktop.ini
+Thumbs.db
+.DS_Store

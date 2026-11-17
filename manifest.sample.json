@@ -1,0 +1,10 @@
+{
+  "_comment": "Exemple du format produit par generate.py. Le site lit manifest.json (généré), pas ce fichier. 'album' vient du sous-dossier dans originals/.",
+  "albums": ["ceremonie", "vin-honneur", "soiree"],
+  "photos": [
+    { "thumb": "thumbs/ceremonie_img_001.jpg", "full": "https://pub-xxxx.r2.dev/ceremonie_img_001.jpg", "name": "ceremonie_img_001.jpg", "w": 3000, "h": 2000, "album": "ceremonie" }
+  ],
+  "videos": [
+    { "thumb": "thumbs/soiree_danse.jpg", "full": "https://pub-xxxx.r2.dev/soiree_danse.mp4", "name": "soiree_danse.mp4", "duration": 158, "album": "soiree" }
+  ]
+}

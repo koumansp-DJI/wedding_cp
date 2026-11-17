@@ -1,0 +1,12 @@
+GRAVURES DES LIEUX (coins de l'écran d'accueil)
+-----------------------------------------------
+Dépose ici tes deux illustrations gravées des lieux pour remplacer les
+ornements botaniques par défaut :
+
+  assets/venue-1.png   → coin haut-gauche   (ex. l'église / la cérémonie)
+  assets/venue-2.png   → coin bas-droit     (ex. le château / la soirée)
+
+Conseils :
+- PNG à fond transparent, ton lilas/violet foncé (elles sont fondues au blanc).
+- ~800–1400 px de large suffisent. Si un fichier est absent, l'ornement gravé
+  par défaut s'affiche automatiquement (aucune erreur visible).
