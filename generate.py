@@ -175,6 +175,10 @@ def make_photo(src, stem, args):
     }
     if taken:
         entry["taken"] = taken
+    try:  # poids du fichier téléchargé (sert à découper les ZIP côté site)
+        entry["size"] = os.path.getsize(web_path if need_web else src)
+    except OSError:
+        pass
     return entry
 
 
@@ -347,7 +351,7 @@ def main():
         "videos": videos,
     }
     with open(MANIFEST, "w", encoding="utf-8") as fh:
-        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+        json.dump(manifest, fh, ensure_ascii=False, separators=(",", ":"))
 
     web_sz = dir_size(WEB_DIR)
     thumb_sz = dir_size(THUMBS_DIR)
